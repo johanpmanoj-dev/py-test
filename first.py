@@ -72,7 +72,7 @@ while not name.isalpha() :
     print("wrong try again")
     name=input("enter your name ")
     
-print(f"hello {name}!")"""
+print(f"hello {name}!")
 print("******************************COMPUND INTREST CALCULATOR******************************")
 pamt=0
 intrs=0
@@ -100,19 +100,11 @@ while True :
     else :
         break
 sum=pamt*pow((1+intrs),tym)
-print(sum)
-
-
-    
-
-
-
-
-
-
-    
-
-
-
-
-
+print(sum)"""
+acc_bal=232312
+intmoney= int(input("enter a valid amount to be transfred"))
+if acc_bal>intmoney:
+    acc_bal = acc_bal -intmoney
+    print(f"money has been successfully tranfred current balance is {acc_bal}")
+else :
+    print("error 101 inssufficent funds!")
