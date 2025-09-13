@@ -102,7 +102,7 @@ while True :
 sum=pamt*pow((1+intrs),tym)
 print(sum)"""
 acc_bal=232312
-intmoney= int(input("enter a valid amount to be transfred"))
+intmoney= int(input("enter a valid amount to be transfred "))
 if acc_bal>intmoney:
     acc_bal = acc_bal -intmoney
     print(f"money has been successfully tranfred current balance is {acc_bal}")
