@@ -99,8 +99,8 @@ while True :
         tym=int(input("enter the principle amt in ruppes  "))
     else :
         break
-sum=pamt*pow((1+intrs),tym)
-print(sum)
+
+print("")
 
 
     
